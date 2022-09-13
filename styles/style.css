@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --blue: #0332FC;
+    --gray: #F2F2F2;
+    --light-blue: #30A8F2;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 2rem;
+    background-color: var(--gray);
+}
+
+nav img {
+    height: 50px;
+    border-radius: 26px;
+}
+
+nav div {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    gap: 3rem;
+    color: var(--blue);
+}
+
+.navigation a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.navigation__get_start {
+    border: 2px solid var(--blue);
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 2100px;
+    margin: auto;
+}
+
+.hero {
+    position: relative;
+    height: 623px;
+    background-color: var(--gray);
+}
+
+.hero img {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    height: 580px;
+}
+
+.hero__content {
+    position: absolute;
+    width: 45%;
+    top: 9.4em;
+    left: 7%;
+}
+
+.hero__content--title {
+    text-transform: uppercase;
+    color: var(--blue);
+    font-size: 64px;
+    margin: 0;
+}
+
+.hero__content--title b {
+    color: var(--light-blue);
+}
+
+.hero__content--description {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.hero__content--actions {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.hero__content--actions div {
+    padding: 18px 0;
+    border: 2px solid;
+    margin: 22px 0;
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.hero__content--actions a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.hero__content--actions__user {
+    background-color: var(--blue);
+}
+
+.hero__content--actions__user a {
+    color: var(--white);
+}
+
+.hero__content--footer a {
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.about {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 4.7em 7%;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.spacer {
+    margin: 10px 0;
+    width: 80px;
+    height: 5px;
+    background-color: var(--white);
+}
+
+.about__content {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
