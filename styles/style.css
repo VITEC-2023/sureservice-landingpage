@@ -160,3 +160,113 @@ h2 {
     font-size: 1.2rem;
     margin: 20px 0;
 }
+
+.services {
+    padding: 4.7em 7%;
+}
+
+.services__content {
+    padding-top: 60px;
+    display: flex;
+}
+
+.services__content > div {
+    width: 50%;
+} 
+
+.services__content img {
+    max-height: 340px;
+    max-width: 85%;
+}
+
+.services__content--text {
+    margin: auto 0;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.services__content--text p {
+    font-size: 1.2em;
+}
+
+.services__electricidad {
+    display: flex;
+    padding: 4.7em 7%;
+    background-color: var(--gray);
+}
+
+.services__electricidad > div {
+    width: 50%;
+}
+
+.services__electricidad img {
+    margin-left: 15%;
+    max-height: 340px;
+    max-width: 85%;
+}
+
+.services__reparacion {
+    display: flex;
+    padding: 4.7em 7%;
+}
+
+.services__reparacion > div {
+    width: 50%;
+}
+
+.services__reparacion img {
+    max-height: 340px;
+    max-width: 85%;
+}
+
+.our_team {
+    display: flex;
+    padding: 4.7em 7%;
+    background-color: var(--gray);
+}
+
+.our_team > div {
+    width: 50%;
+}
+
+.our_team img {
+    margin-left: 15%;
+    max-height: 340px;
+    max-width: 85%;
+}
+
+.our_team__link {
+    color: var(--blue);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 4.7em 7%;
+}
+
+footer img {
+    width: 28px;
+}
+
+.information__title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.information__license {
+    padding-top: 20px;
+}
+
+.contact div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
