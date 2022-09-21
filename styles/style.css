@@ -62,7 +62,7 @@ nav div {
 }
 
 .container {
-    max-width: 2100px;
+    max-width: 3000px;
     margin: auto;
 }
 
@@ -98,7 +98,7 @@ nav div {
 }
 
 .hero__content--description {
-    font-size: 30px;
+    font-size: 2.3rem;
     margin: 10px 0;
     font-weight: 400;
 }
@@ -116,7 +116,7 @@ nav div {
     border: 2px solid;
     margin: 22px 0;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
     border-radius: 5px;
 }
 
@@ -147,7 +147,7 @@ nav div {
 
 h2 {
     margin: 0;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -354,7 +354,11 @@ footer img {
         display: none;
     }
     .hero__content {
-        width: 100%;
+        width: 90%;
+        padding-right: 0.8rem;
+    }
+    .hero__content--title {
+        font-size: 3rem;
     }
     .navigation__get_start {
         font-size: 0.55rem;
@@ -364,5 +368,20 @@ footer img {
     }
     .services__content--text p {
         font-size: 1rem;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    nav {
+        justify-content: end;
+    }
+    nav img {
+        display: none;
+    }
+    h3 {
+        font-size: 1.5em;
     }
 }
