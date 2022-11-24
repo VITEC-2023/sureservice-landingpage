@@ -4,7 +4,7 @@ var line1__navigation = document.querySelector(".line1__navigation");
 var line2__navigation = document.querySelector(".line2__navigation");
 var line3__navigation = document.querySelector(".line3__navigation");
 var container__menu = document.querySelector(".menu");
-//
+// Add animation to the bars
 function animateBars() {
     line1__navigation.classList.toggle("activeline1__navigation");
     line2__navigation.classList.toggle("activeline2__navigation");
